@@ -1,60 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Gallery</title>
+    <meta charset="UTF-8"/>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body style="margin: 0; padding: 0; background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%); line-height: 1.8;">
-<header style="background: linear-gradient(to right, #2c3e50, #3498db); padding: 2rem; color: white; text-align: center;">
-  <h1 style="font-size: 3rem; margin: 0; padding: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Gallery</h1>
-  <nav>
-    <ul style="list-style: none; display: flex; justify-content: center; gap: 2rem; padding: 0;">
-      <li><a href="../index.html" style="color: white; text-decoration: none; font-size: 1.2rem;">Home</a></li>
-      <li><a href="./contact.html" style="color: white; text-decoration: none; font-size: 1.2rem;">Contact</a></li>
-    </ul>
-  </nav>
+<body>
+<header>
+    <h1>Gallery</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </header>
-<main style="max-width: 1200px; margin: 2rem auto; padding: 0 2rem;">
-  <section style="background-color: white; padding: 3rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-    <h2 style="color: #2c3e50; font-size: 2.5rem; text-align: center; margin-bottom: 2rem;">My Favorite Photos</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
-      <img
-              src="../photo/japan1.jpg"
-              alt="japan1"
-              style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);"
-      />
-      <img
-              src="../photo/japan2.jpg"
-              alt="japan2"
-              style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);"
-      />
-      <img
-              src="../photo/japan3.jpg"
-              alt="japan3"
-              style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);"
-      />
-      <img
-              src="../photo/japan4.jpg"
-              alt="japan4"
-              style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);"
-      />
-    </div>
-    <p style="color: #444; font-size: 1.1rem; line-height: 1.8; text-align: justify; margin-bottom: 1.5rem; white-space: pre-line;">
-      Through the morning mist of Kyoto's temples, bronze bells awaken ancient spirits. Here, where jade-colored moss cradles centuries-old stones,
-      Buddha's presence lingers like incense in still air. Each step along the worn temple paths echoes with the footsteps of countless pilgrims who came before.
+<main>
+    <section>
+        <h2>My Favorite Photos</h2>
+        <div class="gallery-grid">
+            <img
+                    src="../photo/japan1.jpg"
+                    alt="japan1"
+                    class="gallery-image"
+            />
+            <img
+                    src="../photo/japan2.jpg"
+                    alt="japan2"
+                    class="gallery-image"
+            />
+            <img
+                    src="../photo/japan3.jpg"
+                    alt="japan3"
+                    class="gallery-image"
+            />
+            <img
+                    src="../photo/japan4.jpg"
+                    alt="japan4"
+                    class="gallery-image"
+            />
+        </div>
+        <p class="content-text">
+            Through the morning mist of Kyoto's temples, bronze bells awaken ancient spirits. Here, where jade-colored
+            moss cradles centuries-old stones,
+            Buddha's presence lingers like incense in still air. Each step along the worn temple paths echoes with the
+            footsteps of countless pilgrims who came before.
 
-      In the great hall of Todaiji, the massive bronze Buddha gazes down with eyes of infinite compassion. His gentle smile holds secrets of enlightenment, unchanged since artisans first shaped his form over a thousand years ago.
-      Sunbeams filter through wooden beams, creating halos of dust that dance like spirits before his serene face.
+            In the great hall of Todaiji, the massive bronze Buddha gazes down with eyes of infinite compassion. His
+            gentle smile holds secrets of enlightenment, unchanged since artisans first shaped his form over a thousand
+            years ago.
+            Sunbeams filter through wooden beams, creating halos of dust that dance like spirits before his serene face.
 
-      The zen gardens speak in whispers of emptiness and form. Raked gravel flows like frozen waves around islands of stone, teaching lessons of impermanence without words.
-      Here, monks in black robes sweep fallen leaves with the same mindfulness they bring to their deepest meditations.
+            The zen gardens speak in whispers of emptiness and form. Raked gravel flows like frozen waves around islands
+            of stone, teaching lessons of impermanence without words.
+            Here, monks in black robes sweep fallen leaves with the same mindfulness they bring to their deepest
+            meditations.
 
-      In mountain temples, prayer flags flutter like butterfly wings in the wind, carrying wishes to heaven. The sound of wooden blocks being struck marks time differently here – not in minutes and hours,
-      but in breaths and heartbeats. Each strike is a reminder to return to the present moment, to find Buddha nature in the simplest of acts.</p>
-  </section>
+            In mountain temples, prayer flags flutter like butterfly wings in the wind, carrying wishes to heaven. The
+            sound of wooden blocks being struck marks time differently here – not in minutes and hours,
+            but in breaths and heartbeats. Each strike is a reminder to return to the present moment, to find Buddha
+            nature in the simplest of acts.</p>
+    </section>
 </main>
-<footer style="background: #2c3e50; color: white; text-align: center; padding: 1.5rem; margin-top: 3rem;">
-  <p style="margin: 0; color: white;">&copy; 2024 Olena N</p>
+<footer>
+    <p>&copy; 2024 Olena N</p>
 </footer>
 </body>
 </html>
